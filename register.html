@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <!-- Custom CSS   -->
+    <link rel="stylesheet" href="css\styles.css">			
+		 <!-- Bootstrap   -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+		<!-- Fontawesome -->		
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">		
+		<!-- googlefonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>       
+		<link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&family=Krona+One&family=Montserrat:wght@400;700&family=Wallpoet&display=swap" rel="stylesheet">
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+		
+<body>
+  <div class="container-fluid">
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#"> CHALLENGES DAILY UI :: 01</a>
+      </nav>
+
+      <div class="container d-flex justify-content-center align-items-center"> 
+        <!-- CARD --> 
+        <div id="sign-form" class="card my-3" style="max-width: 55rem; ">
+          <div class="card-header text-center">
+               <h1>Sign Up</h1>      
+            </div>  <!-- end card-header -->
+            <div class="card-body">
+            <!-- ********* FORM ********  -->
+                <form action="/register" method="POST">			
+                   <div class="mb-3">				
+                      <label for="inputUsername" class="form-label">
+                          <i class="fa fa-envelope prefix grey-text"></i> Username</label>
+                      <input type="text" id="inputUsername" class="form-control" name="username" required>					 
+                    </div>  
+                    <div class="mb-3">
+                      <label for="password" class="form-label"><i class="fa fa-lock prefix grey-text"></i> Password</label>
+                      <input type="password" class="form-control" name="password" id="password" required>
+                    </div>
+                    <div class="d-grid gap-2 my-4">
+                      <button class="btn btn-md btn-success" type="submit">Sign Up</button>
+                    </div>  
+                    <hr>
+                    <p class="my-4 me-2 small">If you are not new here: 
+                        <a class="btn btn-sm btn-outline-success ms-2" href="#">Sign In</a>
+                    </p>                                     
+                </form>   
+            </div> <!-- end card-body -->
+            <div class="card-footer">
+                <p id="footer">Photo by <a 
+                  href="https://unsplash.com/es/@maritaextrabold?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
+                  Marita Kavelashvili</a> on 
+                  <a href="https://unsplash.com/es/s/fotos/nature?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                </p>
+               </div>                
+          </div> <!-- end card -->          
+      </div> <!-- end container -->
+
+  </div> <!-- end container-fluid -->
+    
+    
+</body>
+</html>

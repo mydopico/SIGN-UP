@@ -1,0 +1,51 @@
+body {	
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.8;	   
+}
+
+.container-fluid {
+	background: url("https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=874&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;      
+}
+
+
+.navbar-brand {
+	color: #7ab200;
+	font-family: "McLaren", cursive;	
+}
+
+.navbar-brand:hover {
+	color: #63635c;	
+}
+
+
+#sign-form {	
+	font-weight: bold;
+	font-size: 16px;			
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);	
+	background: rgba(242,242,242,0.7);	
+	color: #63635c;
+}
+
+#sign-form h1 {	
+	color: #f5ba13;
+	font-family: "McLaren", cursive;	
+}
+
+#sign-form a {	
+	background: #7ab200;
+    color: white;
+	border: none;
+}
+#sign-form button {	
+	background: #7ab200;		
+	color: white;
+	border: none;
+}
+
+#footer a {
+	background: rgba(242,242,242,0.1);	
+	text-decoration: none;
+	color: aquamarine;
+}
